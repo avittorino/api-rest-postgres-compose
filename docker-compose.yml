@@ -4,6 +4,7 @@ services:
   web:
     build: .
     container_name: web_node
+    command: npm run dev
     restart: always
     image: "node:latest"
     volumes: 
